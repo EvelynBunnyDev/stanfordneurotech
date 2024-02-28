@@ -31,4 +31,4 @@ We welcome contributions from the community! If you'd like to contribute to the 
 
 ## Contact
 
-If you have any questions or feedback regarding the website or the Stanford Neurotech Club, please feel free to reach out to us at [evsong@stanford.edu](mailto:evsong@stanford.edu).
+If you have any questions or feedback regarding the website or the Stanford Neurotech Club, please feel free to reach out to us at [evsong@stanford.edu](mailto:evsong@stanford.edu) and [sean777@stanford.edu](mailto:sean777@stanford.edu).
