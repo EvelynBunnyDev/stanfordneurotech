@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     margin: 0;
     padding: 0;
@@ -13,73 +14,138 @@ header {
     padding: 20px;
 }
 
-.logo {
+nav {
+    width: 50%; /* Set the width of the nav to 60% of the header */
     display: flex;
+    justify-content: space-between; /* Distribute items evenly */
     align-items: center;
-}
-
-.logo img {
-    width: 80px; /* Adjust as needed */
-    height: auto;
-    margin-right: 10px;
-}
-
-.logo-text {
-    text-align: left;
-}
-
-.logo-text h1, .logo-text h2 {
-    margin: 0;
-}
-
-.main-title {
-    text-align: left;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex; /* Set the ul to flex to display items in a row */
+    justify-content: space-between; /* Distribute items evenly */
+    width: 100%; /* Ensure the ul takes up the full width of the nav */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    padding: 0 5px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin for the last list item */
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    position: relative; /* Position relative for the button pseudo-element */
+    padding: 10px 20px;
+    font-family: 'Avenir', sans-serif;
 }
 
-main {
+nav ul li a.rainbow-button {
+    background-image: url('rainbow-pic.png'); /* Set the picture as background */
+    background-size: cover; /* Ensure the background image covers the entire button area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Ensure the background image is not repeated */
+    padding: 10px 20px; /* Add padding to make the button clickable */
+    font-family: 'Avenir', sans-serif; /* Apply Avenir font */
+    text-transform: uppercase; /* Convert text to uppercase */
+}
+
+/* Main Page Content */
+.main-page-content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 50px 90px 0 180px;
+    width: 100vh;
 }
 
+.main-desc {
+    padding: 20px 0;
+}
+
+/* Content Section */
 .content {
-    flex: 1;
-    text-align: left;
+    width: 45%;
+    flex: 1; /* Expand to fill available space */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 0 40px;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 40px 0;
+}
+
+/* Image Section */
 .image {
-    flex: 1;
+    width: 45%;
+    flex: 1; /* Expand to fill available space */
+    align-self: flex-start; /* Align the image to the start */
+    margin-left: 20px; /* Add margin to create space between text and image */
 }
 
-h1, h2 {
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 200px; 
+    height: auto; 
+    margin-right: 10px;
+}
+
+/* Brain Image */
+.brain-img {
+    width: 700px; 
+    height: auto; 
+}
+
+/* Rainbow Heading */
+.rainbow-heading {
+    font-size: 4rem; 
+    font-weight: 800; 
+    background: -webkit-linear-gradient(left, #1499f7, #8A2BE2, #FF69B4); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    margin-top: 0;
+}
+
+/* Headings */
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h1:first-child {
+    margin-bottom: 5px; /* Adjust the margin between the two h1 elements */
+}
+
+h2 {
     font-size: 28px;
 }
 
-h1 {
-    font-size: 36px;
-}
-
+/* Paragraphs */
 p {
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Avenir', sans-serif;
 }
 
+/* Links */
 a {
     color: #fff;
+    text-decoration: none;
 }
