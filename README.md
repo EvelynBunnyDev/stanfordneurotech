@@ -2,6 +2,9 @@
 
 Welcome to the Stanford Neurotech Club's website repository!
 
+![feb28-main](https://github.com/EvelynBunnyDev/stanfordneurotech/assets/153574461/8111a853-e0d7-429a-b354-84e46c4b0130)
+As of Feb 28, 2024.
+
 ## Overview
 
 This repository hosts the codebase for the Stanford Neurotech Club's website. The website serves as a platform to showcase our club's projects, resources, and events, and to provide information about joining the club.
