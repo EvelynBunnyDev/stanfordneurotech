@@ -48,12 +48,13 @@ nav ul li a {
 
 nav ul li a.rainbow-button {
     background-image: url('rainbow-pic.png'); /* Set the picture as background */
-    background-size: cover; /* Ensure the background image covers the entire button area */
+    background-size:contain; /* Set the background image to contain */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Ensure the background image is not repeated */
     padding: 10px 20px; /* Add padding to make the button clickable */
     font-family: 'Avenir', sans-serif; /* Apply Avenir font */
     text-transform: uppercase; /* Convert text to uppercase */
+    border-radius: 10px;
 }
 
 /* Main Page Content */
@@ -68,6 +69,34 @@ nav ul li a.rainbow-button {
 .main-desc {
     padding: 20px 0;
 }
+
+/* Full page */
+.page.full-height {
+    height: 100vh;
+    width: 100vh;
+}
+
+.page.full-height {
+    display: flex;
+    padding: 0 20px; /* 20px padding towards the left and right edges */
+  }
+  
+  .image {
+    display: flex;
+    flex: 1;
+  }
+  
+  .left-half, .right-half {
+    flex: 1;
+    padding: 0 10px; /* 20px padding towards the left and right edges */
+  }
+  
+  .left-half img, .right-half img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
 
 /* Content Section */
 .content {
@@ -149,3 +178,42 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #d3c2c2;
+    border-top: none;
+    width: 200px;
+    padding: 10px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .dropdown-menu li {
+    padding: 5px 0;
+  }
+  
+  .dropdown-menu a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown-menu a:hover {
+    color: #000;
+    font-weight: bold;
+  }
+  
