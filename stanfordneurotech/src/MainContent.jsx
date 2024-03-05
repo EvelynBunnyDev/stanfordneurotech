@@ -5,25 +5,6 @@ import brain from './brain.png';
 import implant from './implant.png';
 import page3 from './page3.png';
 
-// function Header() {
-//   return (
-//     <header>
-//       <div className="logo">
-//         <img className="logo-img" src={logo} alt="Stanford Neurotech Logo" />
-//       </div>
-
-//       <nav>
-//         <ul>
-//           <li><a href="#">ABOUT</a></li>
-//           <li><a href="#">PROJECTS</a></li>
-//           <li><a href="#">RESOURCES</a></li>
-//           <li><a href="#" className="rainbow-button">JOIN US</a></li>
-//         </ul>
-//       </nav>
-//     </header>
-//   );
-// }
-
 function MainContent() {
   return (
     <main>

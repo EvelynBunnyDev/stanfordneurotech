@@ -45,7 +45,7 @@ function Header() {
             {isProjectsDropdownOpen && (
               <div className="dropdown-menu">
                 <ul>
-                  <li><a href="#">JOIN ONGOING PROJECTS</a></li>
+                  <li><a href="#">JOIN PROJECTS</a></li>
                   <li><a href="#">ALL PROJECTS</a></li>
                   <li><a href="#">CLIENT PROJECTS</a></li>
                   <li><a href="#">OUR PUBLICATIONS</a></li>
@@ -59,7 +59,7 @@ function Header() {
               <div className="dropdown-menu">
                 <ul>
                   <li><a href="#">MEDIUM</a></li>
-                  <li><a href="#">GITHUB</a></li>
+                  <li><a href="https://github.com/stanford-ntx">GITHUB</a></li> 
                   <li><a href="#">VIEW COURSES</a></li>
                   <li><a href="#">VIEW MATERIALS</a></li>
                 </ul>
