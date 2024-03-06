@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.css'; // Import your CSS file
-import logo from './logo.png';
+import './App.css';
 import brain from './brain.png';
 import implant from './implant.png';
 import page3 from './page3.png';
@@ -46,7 +45,13 @@ function MainContent() {
           </div>
         </div>
       </div>
-
+      {/* Page 4: That’s why we don’t believe in */}
+      <div className="page full-height">
+          <div className="centered-text">
+            <h2>That's why we don't believe in</h2>
+          </div>
+          {/* Add more content as needed */}
+        </div>
       {/* Repeat similar structure for more pages */}
       {/* Page 3, 4, 5, ... */}
     </main>
